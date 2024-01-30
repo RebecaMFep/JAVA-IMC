@@ -1,7 +1,7 @@
 package dev.rebecamf;
 
-import main.java.dev.rebecamf.models.IMC;
-import main.java.dev.rebecamf.models.Person;
+import dev.rebecamf.models.IMC;
+import dev.rebecamf.models.Person;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-
+package dev.rebecamf.models;
 
 public class IMC {
     public Object person;
@@ -8,7 +8,7 @@ public class IMC {
     
     public IMC(Person person) {
         this.person = person;
-        imc = person.weight / Math.pow(person.height, 2);
+        imc = person.getWeight() / Math.pow(person.getHeight(), 2);
     
     }
 
